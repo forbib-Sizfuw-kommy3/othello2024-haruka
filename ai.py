@@ -151,4 +151,6 @@ class AdvancedAI(object):
         score -= opponent_potential_moves * 5  # 相手の潜在的な置ける場所が多いほど減点
 
         return score
-play_othello(AdvancedAI())
+
+
+
